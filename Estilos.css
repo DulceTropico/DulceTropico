@@ -1,0 +1,297 @@
+*{margin: 0;
+padding: 0;}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul{position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    header.abajo{
+        background-color: #ff334c;
+        padding: 15px 20px;
+    }
+
+header .Logo{position: relative;
+color: black;
+font-weight: bold;
+font-size: 2em;
+letter-spacing: 2px;
+transition: 1.5s;
+text-decoration: none;}
+
+header ul li{list-style: none;}  
+
+header ul li a{
+    position: relative;
+    font-family: helvetica;
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+}
+
+.zona1{
+    scroll-margin-top: 60ex;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: white
+}
+
+header.abajo  .Logo,
+header.abajo ul li a{
+    color: black;
+}
+
+.enlace{
+    scroll-margin-top: 60ex;
+}
+
+.transicion{
+    transition: 1.5s;
+}
+
+.box{
+    width: 100vw;
+    height: 50vh;
+    box-sizing: border-box;
+    scroll-margin-top: 120ex;
+    background: linear-gradient(to right, 
+    rgb(0 0 0 / .35), rgb(0 0 0 / .35)), url(Imagenes/Quienes.jpg);
+    background-size: auto;
+    background-position: center;
+    color: white;
+    font-family: helvetica;
+    font-weight: bold;
+    text-align: center;
+    place-items: center;
+    font-size: xx-large;
+
+}
+
+.box2{
+
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+
+    /*Fuente*/
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+    padding: 15px;
+    
+}
+
+
+.vision{
+
+    
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 300px;
+    width: 500px;
+    background-color: #ff334c; 
+    border-radius: 25px; 
+    
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+    padding: 25px;
+    row-gap: -700px;
+
+    
+}
+
+.mision{
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 300px;
+    width: 500px;
+    background-color: #9ec10c;
+    border-radius: 25px;
+
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+    padding: 25px;
+    row-gap: 1px;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+
+    
+}
+
+.box3{
+    width: 100vw;
+    height: 50vh;
+    box-sizing: border-box;
+    scroll-margin-top: 120ex;
+    background: linear-gradient(to right, 
+    rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(Imagenes/Productos.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: helvetica;
+    font-weight: bold;
+    text-align: center;
+    place-items: center;
+    font-size: xx-large;
+}
+
+.estrella{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    min-height: 100vh; /* Ocupa toda la altura de la pantalla */
+    margin: 0; /* Elimina márgenes predeterminados */
+    background-color: #f0f0f0; /* Fondo opcional */
+}
+
+/* Estilo para el círculo */
+.circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; /* Convierte el contenedor en un círculo */
+    overflow: hidden; /* Asegura que la imagen no sobresalga del círculo */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centra la imagen dentro del círculo */
+    background: #ccc; /* Fondo mientras carga la imagen */
+}
+
+/* Estilo para la imagen */
+.circle img {
+    width: 100%; /* Asegura que la imagen se adapte al círculo */
+    height: 100%; /* Llena el círculo */
+    object-fit: cover; /* Recorta la imagen proporcionalmente si es necesario */
+}
+
+.mermelada{
+    width: 600;
+    font-weight: bold;
+    font-family: helvetica;
+    text-align: center;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 200px;
+    text-align: center;
+
+    
+}
+
+.container3{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+    text-align: center;
+    
+}
+
+.descripcion{
+    width: 400px;
+    text-align: center;
+    font-weight: bold;
+    font-family: helvetica;
+}
+
+.box4{
+    width: 100vw;
+    height: 50vh;
+    box-sizing: border-box;
+    scroll-margin-top: 120ex;
+    background: linear-gradient(to right, 
+    rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(Imagenes/contactanos.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: helvetica;
+    font-weight: bold;
+    text-align: center;
+    place-items: center;
+    font-size: xx-large;
+
+}
+
+.container4{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 150px;
+    text-align: center;
+    
+}
+
+.container4{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 150px;
+    text-align: center;
+    
+}
+
+.descripcion2{
+    width: 200px;
+    text-align: left;
+    font-weight: bold;
+    font-family: helvetica;
+    font-size: x-large;
+    ;
+}
